@@ -125,5 +125,10 @@ border-radius: 25px;
 
 
 }
-
+#wireframeP {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
 
