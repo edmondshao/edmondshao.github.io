@@ -11,7 +11,9 @@
     src: url(/fonts/Sketch_3D.woff)
 }
 
-
+body{
+  background-color: white;
+}
 
 .nav_sidebar {
     width: 130px;
@@ -67,17 +69,28 @@
       text-align:center;
   }
 
-.featured_column{
-    display: flex;
-    justify-content: center;
+
+
+
+.interest_column{
+  display:flex;
+  flex-direction:column;
+ 
+}
+.interest_column > div{
+  margin: 10px;
+  padding: 20px;
+  font-size: 50px; 
+}
+.column_title{
+  font-family:appleBerry;
+  font-size: 70px;
+  text-align:center;
 }
 
- #article_title{
-   
-    left:50%;
-    right:50%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:red;
-
+.main{
+  display:flex;
 }
+
+
 

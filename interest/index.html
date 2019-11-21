@@ -2,7 +2,19 @@
 <html>
   <head>
       <title>Edmond Personal Interest</title>
-      <link rel="stylesheet" type = "text/css" href = "css/desktop.css">
+
+     <!-- Mobile -->
+    	<link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+
+	    <!-- Tablet -->
+	    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 999px)" href="css/tablet.css">
+
+	    <!-- Desktop -->
+	    <link rel="stylesheet" media="only screen and (min-width: 1000px)" href="css/desktop.css">
+
+	    <!-- Prevent smartphones from scaling pages down -->
+      <meta name="viewport" content="initial-scale=1">
+
       
   </head>
   <body>
@@ -34,38 +46,40 @@
     </div>
 
     <div class="main">
-        <table  >
-            <tr>
-             <td>
-                  <h1>Travel</h1>
-                    <div class="featured_column">
-                          
-                          <a href = "https://edmondshao.github.io/interest/index.html"><img src="images/builder.jpg" width ="200px"; alt="Travel" onclick="myFunction(this);"></a>
-                          <h2 id = 'article_title'>Travel Article Title</h2>
-                    </div>
-             </td>
-             <td>
-                <h1>Food</h1>
-                    <div class="featured_column">
-                          
-                           <a href = "https://edmondshao.github.io/interest/index.html"><img src="images/builder.jpg" width ="200px"; alt="Food" onclick="myFunction(this);"></a>
-                          <h2 id = 'article_title' >Food Article Title</h2>
+      
+      <div class ="interest_column">
+        <div class = "column_title"> Travel</div>
+        <div class = "featured_article">
+          <a href = "travel.html"><img src = "images/"></a> 
+          <div class = "article_title">Ed's Top 5 Places</div>
+        </div>
+        
 
-                    </div>
-             </td>
-             <td>
-               <h1>Cars</h1>
-                <div class="featured_column">
-                        
-                        <a href = "https://edmondshao.github.io/interest/index.html"><img src="images/builder.jpg" width ="200px"; alt="Cars" onclick="myFunction(this);"></a>
-                        <h2 id = 'article_title'>Cars Article Title</h2>
-
-                </div>
-            </td>
-            </tr>
-
-           </table>
+      </div>
+      <div class = "interest_column">
+          
+          <div class = "column_title"> Food</div>
+          <div class = "featured_article">
+            <a href = "food.html"><img src = "images/jeju.png"></a>
+            <div class = "article_title">Best Ramen Place</div>
+          </div>
+          
+      </div>
+      <div class = "interest_column">
+          <div class = "column_title"> Cars</div>
+          <div class = "featured_article">
+            <a href = "cars.html"><img src = "images/builder.jpg"></a>
+            <div class = "article_title">Top New Car 2019</div>
+          </div>
+      </div>
     </div>
+
+
+
+
+
+
+   
 
   </body>
 
