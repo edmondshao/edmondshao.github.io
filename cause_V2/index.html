@@ -60,7 +60,7 @@
       </div>
       
       <div class="row centered">
-        <div class="col-md-3 col-lg-5 p-3 m-1">
+        <div class="col-md-3 col-lg-5 p-3 m-1 ">
 
           
               <img src ="images/600lt.jpg" class ="img-fluid rounded-circle">
@@ -82,9 +82,16 @@
     
   
 
-  <!-- Bootstrap core JavaScript -->
+  
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+      $(document).ready(function(){
+        $("button").click(function(){
+          $("p").toggle();
+        });
+      });
+      </script>
 
   <footer class="footer text-center font-weight-bold text-white" style="background-color:rgb(52,58,64)"">
       <div class="container">

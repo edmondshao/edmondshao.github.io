@@ -1,0 +1,131 @@
+@font-face{
+    font-family: threeD;
+    src: url(../fonts/Sketch_3D.woff);
+}
+
+@font-face{
+    font-family: appleBerry;
+    src: url(../fonts/appleberry.ttf);
+}
+
+@font-face{
+    font-family: grobold;
+    src: url(../fonts/GROBOLD.ttf);
+}
+
+@font-face{
+    font-family: unic_pop;
+    src: url(../fonts/Unicorn\ Pop.ttf);
+}
+
+
+
+body{
+    background: #3f4a40;
+}
+
+h1{
+    font-family: Arial,sans-serif;
+}
+
+header{
+    display:flex;
+    border: solid 0px black;
+}
+
+nav{
+    display:flex;
+    flex-grow:2;
+    
+    
+}
+
+#logo{
+    font-family:grobold;
+    font-size: 45px;
+    display: flex;
+    padding-left:25px;
+    align-items: center;
+    flex-grow: 3;
+    color: #FFDF00;
+    text-decoration: none;
+}
+
+nav ul{
+    background-color:black;
+    display:flex;
+    list-style:none;  /*get rid of the dots (aka default)*/
+    padding:0px; /*remove default*/
+    align-items: center;
+
+    border-bottom-left-radius:10px;
+    border-top-left-radius: 10px;
+    
+    border-bottom-right-radius:10px;
+	border-top-right-radius: 10px;
+   
+}
+
+
+
+nav ul :hover{
+    background-color:grey;
+
+    border-bottom-left-radius:10px;
+    border-top-left-radius: 10px;
+    
+    border-bottom-right-radius:10px;
+	border-top-right-radius: 10px;
+    
+}
+
+
+nav li a {
+    color: white;
+    font-display: grobold;
+    font-size:25px;
+    padding: 25px;
+    display:inline-flex;
+    
+}
+
+
+#mainArea{
+	
+	display : flex;		
+	flex-direction: row;
+	width : 100%;
+}
+
+#mainArea div{
+	
+	flex-grow : 5;				
+	min-width : 50%;
+}
+
+#mainArea div:first-child{
+	text-align : center;
+}
+
+#mainArea > #text > p{
+    color:white;
+}
+
+#hey{
+    font-family:grobold;
+    color:white;
+}
+
+#introP{
+    color:white;
+    font-size:25px;
+}
+
+#mainPrf{
+    width:400px;
+}
+
+
+
+
+
